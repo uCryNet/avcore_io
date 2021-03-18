@@ -36,7 +36,7 @@ export const App = () => {
 
         const average = values / array.length;
 
-        if (average >= 20) {
+        if (average >= 5) {
           setPlayed(true)
         } else {
           setPlayed(false)
